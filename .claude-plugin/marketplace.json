@@ -1,0 +1,13 @@
+{
+  "name": "wagner-plugins",
+  "owner": { "name": "wmazuchi" },
+  "description": "Personal Claude Code setup aligned with the Ituran Compass policy.",
+  "allowCrossMarketplaceDependenciesOn": ["claude-plugins-official"],
+  "plugins": [
+    {
+      "name": "dev-kit",
+      "source": "./plugins/dev-kit",
+      "description": "Curated Superpowers skills plus Context7, GitHub, Playwright and Security Guidance, with Compass-aligned session rules."
+    }
+  ]
+}
