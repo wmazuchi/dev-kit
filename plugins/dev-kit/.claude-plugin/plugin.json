@@ -1,15 +1,16 @@
 {
   "name": "dev-kit",
   "displayName": "Dev Kit (Compass-aligned)",
-  "version": "2.0.0",
-  "description": "Curated Superpowers skills (brainstorming, TDD, systematic debugging, code review) plus Context7, GitHub, Playwright and Security Guidance, with session rules aligned to the Ituran Compass policy.",
+  "version": "2.1.0",
+  "description": "Curated Superpowers skills (brainstorming, TDD, systematic debugging, code review) and a UI review skill, plus Context7, GitHub, Playwright, Security Guidance and Frontend Design, with session rules aligned to the Ituran Compass policy.",
   "author": { "name": "wmazuchi" },
   "license": "MIT",
   "dependencies": [
     { "name": "context7", "marketplace": "claude-plugins-official" },
     { "name": "github", "marketplace": "claude-plugins-official" },
     { "name": "playwright", "marketplace": "claude-plugins-official" },
-    { "name": "security-guidance", "marketplace": "claude-plugins-official" }
+    { "name": "security-guidance", "marketplace": "claude-plugins-official" },
+    { "name": "frontend-design", "marketplace": "claude-plugins-official" }
   ],
   "hooks": {
     "SessionStart": [

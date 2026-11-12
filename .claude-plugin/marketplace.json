@@ -7,7 +7,7 @@
     {
       "name": "dev-kit",
       "source": "./plugins/dev-kit",
-      "description": "Curated Superpowers skills plus Context7, GitHub, Playwright and Security Guidance, with Compass-aligned session rules."
+      "description": "Curated Superpowers skills and a UI review skill, plus Context7, GitHub, Playwright, Security Guidance and Frontend Design, with Compass-aligned session rules."
     }
   ]
 }
