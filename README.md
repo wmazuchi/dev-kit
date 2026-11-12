@@ -7,12 +7,14 @@ A personal Claude Code setup, packaged as a plugin marketplace and aligned with 
 | Piece | Source | Role |
 |---|---|---|
 | Curated skills: `brainstorming`, `test-driven-development`, `systematic-debugging`, `requesting-code-review` | Vendored from obra/superpowers ([UPSTREAM.md](plugins/dev-kit/UPSTREAM.md)) | Working method, adopted selectively per the Compass radar |
+| `ui-review` skill | This repository | Senior-designer review of a running UI (phone and desktop), ranked fixes, then improvements in the project's own stack |
 | `doctor`, `update` skills | This repository | Diagnose and update the setup |
 | Session rules ([workflow.md](plugins/dev-kit/rules/workflow.md)) | This repository | Compass-aligned rules injected at every session start |
 | context7 | claude-plugins-official | Version-specific library docs |
 | github | claude-plugins-official | Issues, branches, pull requests |
 | playwright | claude-plugins-official | End-to-end tests |
 | security-guidance | claude-plugins-official | Warnings on risky edits |
+| frontend-design | claude-plugins-official | Distinctive, production-grade interface design |
 
 Installed alongside the plugin, not bundled in it:
 
@@ -20,7 +22,7 @@ Installed alongside the plugin, not bundled in it:
 - **Trivy:** dependency vulnerability scanning.
 - **LSP plugins:** only for language servers present on the machine.
 
-Why each component was chosen, and what was rejected, is recorded in [ADR 0001](docs/architecture/decisions/0001-component-selection.md).
+Why each component was chosen, and what was rejected, is recorded in [ADR 0001](docs/architecture/decisions/0001-component-selection.md) and [ADR 0002](docs/architecture/decisions/0002-ui-design-skills.md).
 
 ## Install (Claude does it for you)
 

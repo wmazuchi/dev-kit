@@ -34,7 +34,7 @@ The login uses the user's Entra identity in the browser. The user completes it t
 ```
 claude plugin install dev-kit@wagner-plugins --scope user
 ```
-This installs the curated skills and session rules, plus these dependencies: context7, github, playwright and security-guidance.
+This installs the curated skills and session rules, plus these dependencies: context7, github, playwright, security-guidance and frontend-design.
 
 If the full `superpowers` plugin or `episodic-memory` is installed, tell the user they overlap with the kit. Offer to uninstall them, but only uninstall after they confirm.
 
@@ -62,7 +62,7 @@ Check `trivy --version`. If it is missing, offer to install it, and install only
 - **GitHub:** check whether `GITHUB_PERSONAL_ACCESS_TOKEN` is set, without ever printing it. If it is not set, explain how to create a fine-grained, least-privilege token at https://github.com/settings/personal-access-tokens and how to set it persistently on the user's OS. Never ask for the token in chat and never write it to a file in a repository.
 
 ## Step 8: Verify
-1. Run `claude plugin list`. Confirm that dev-kit, context7, github, playwright, security-guidance and the chosen LSPs are all enabled.
+1. Run `claude plugin list`. Confirm that dev-kit, context7, github, playwright, security-guidance, frontend-design and the chosen LSPs are all enabled.
 2. Ask the user to open a new Claude Code session (or run `/reload-plugins`), then run `/dev-kit:doctor`.
 
 ## Step 9: Report

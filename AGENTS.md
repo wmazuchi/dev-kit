@@ -9,10 +9,10 @@ A personal Claude Code plugin marketplace (`wagner-plugins`) with one plugin, `d
 The kit packages:
 
 - curated Superpowers skills (`plugins/dev-kit/skills/`, see `plugins/dev-kit/UPSTREAM.md`);
-- plugin dependencies from `claude-plugins-official`: Context7, GitHub, Playwright, Security Guidance;
+- plugin dependencies from `claude-plugins-official`: Context7, GitHub, Playwright, Security Guidance, Frontend Design;
 - session rules (`plugins/dev-kit/rules/workflow.md`) injected by a SessionStart hook. They align daily work with the Compass `system-foundation` blueprint and Tech Radar.
 
-Component choices and their Tech Radar status are recorded in `docs/architecture/decisions/0001-component-selection.md`.
+Component choices and their Tech Radar status are recorded in `docs/architecture/decisions/` (ADR 0001 and later).
 
 ## Conventions
 

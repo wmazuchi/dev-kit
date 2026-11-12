@@ -10,6 +10,7 @@ These rules apply the Ituran Compass policy (`system-foundation` blueprint and T
   - `dev-kit:test-driven-development`: while implementing.
   - `dev-kit:systematic-debugging`: for any bug or unexpected behavior.
   - `dev-kit:requesting-code-review`: before calling a branch ready.
+  - `dev-kit:ui-review`: when a web interface looks basic or confusing, or before calling a UI change ready. It uses `frontend-design` for visual direction.
 - Brownfield safety: before changing an existing flow, add characterization tests at the boundary that flow promises, against real dependencies. Close auth, secret, and data-loss gaps before cleanup.
 - Do not adopt competing workflow frameworks (agent swarms, other methodology plugins).
 
